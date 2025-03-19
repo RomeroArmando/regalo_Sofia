@@ -1,0 +1,66 @@
+/* Estilo general */
+body {
+  font-family: 'Georgia', serif;
+  background: #0a0a0a;
+  color: #d4d4d4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+  margin-top: 50px;
+  padding: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #2c2c2c;
+  background: rgba(20, 20, 20, 0.9);
+  box-shadow: 0 0 15px rgba(100, 0, 200, 0.5);
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* Títulos */
+h1, h2 {
+  color: #9c27b0;
+  text-shadow: 0 0 10px #9c27b0;
+}
+
+/* Botones misteriosos */
+button {
+  background: transparent;
+  color: #d4d4d4;
+  border: 2px solid #9c27b0;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px #9c27b0;
+}
+
+button:hover {
+  background: #9c27b0;
+  color: #0a0a0a;
+  box-shadow: 0 0 15px #9c27b0;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from { 
+    opacity: 0; 
+    transform: translateY(-20px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+/* Aplica la animación (cambio de duración) */
+.container {
+  animation: fadeIn 0.8s ease-in-out; /* Antes estaba en 2s, ahora es 0.8s */
+}
