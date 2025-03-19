@@ -5,9 +5,9 @@ import { useState } from "react";
 const preguntas = [
   { id: "1", pregunta: "¿UVA PURPLE TESLA?", opciones: ["33", "31", "666", "69"], respuesta: "33" },
   { id: "2", pregunta: "¿Que supuesto grande descendio a segunda division el 26 de Junio de 2011 por puto y cagon?", opciones: ["San Silencio", "Racingente", "RiBer", "Independiente (el chiste fue enbargado para pagarle a los jugadores)"], respuesta: "RiBer" },
-  { id: "3", pregunta: "¿Los patos en la plazas son?", opciones: ["Gratis", "Libres", "Comestibles", "Masonicos"], respuesta: "Gratis" },
-  { id: "4", pregunta: "Las palomas tiene relacion con un servicio de inteligencia, ¿cual?", opciones: ["Mossad", "AFI", "CIA", "NSA"], respuesta: "Mossad" },
-  { id: "5", pregunta: "Light Yagami (Death Note), Noctis (FFXV) y Viktor (Arkane) tienen algo en comun, ¿que cosa?", opciones: ["Tienen amigos profundamente heterosexuales", "Estan afiliados al PJ", "Tienen nexos con los medios de comunicacion que nos controlan mediante noticias falsas tapados por empresas que domindan monopolicamente todo el mercado", "Le ponen azucar al mate"], respuesta: "Tienen amigos profundamente heterosexuales" },
+  { id: "3", pregunta: "¿Los patos en la plazas son?", opciones: ["Libres", "Comestibles", "Masonicos", "Gratis"], respuesta: "Gratis" },
+  { id: "4", pregunta: "Las palomas tiene relacion con un servicio de inteligencia, ¿cual?", opciones: ["AFI", "Mossad", "CIA", "NSA"], respuesta: "Mossad" },
+  { id: "5", pregunta: "Light Yagami (Death Note), Noctis (FFXV) y Viktor (Arkane) tienen algo en comun, ¿que cosa?", opciones: ["Estan afiliados al PJ", "Tienen nexos con los medios de comunicacion que nos controlan mediante noticias falsas tapados por empresas que domindan monopolicamente todo el mercado", "Tienen amigos profundamente heterosexuales", "Le ponen azucar al mate"], respuesta: "Tienen amigos profundamente heterosexuales" },
   { id: "6", pregunta: "¡Ultima pregunta! ¿Cual de las siguientes afirmaciones es verdad?", opciones: ["El 911 fue un trabajo interno", "El 911 fue un trabajo interno", "El 911 fue un trabajo interno", "El 911 fue un trabajo interno"], respuesta: "El 911 fue un trabajo interno" },
 ];
 
